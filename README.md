@@ -1,80 +1,106 @@
-Santander Bootcamp 2023 – Projetos
+# Santander Bootcamp 2023 – Projetos
 
-Repositório com os projetos desenvolvidos durante o Santander Bootcamp Fullstack Developer 2023, realizados na Digital Innovation One (DIO).
-Os desafios abrangem desde lógica de programação até práticas de ETL e análise de dados em Python.
+## 🧩 Projetos Desenvolvidos
 
-🧩 Projetos
-1. Desafios Python
+### 🐍 1. **Desafios Python**
+Conjunto de cinco desafios práticos desenvolvidos em Python, abordando:
+- Estruturas condicionais e laços de repetição  
+- Manipulação de strings, listas e dicionários  
+- Simulações de sistemas e validação de entrada de dados  
+- Prática dos fundamentos da linguagem  
 
-Conjunto de cinco exercícios desenvolvidos em Python para praticar:
+📄 *Arquivos:* `Desafio01.py` → `Desafio05.py`
 
-Estruturas condicionais e repetição;
+---
 
-Manipulação de dados e listas;
+### 🌱 2. **ETL Sustentável – ESG**
+Pipeline completo de **ETL (Extração, Transformação e Carga)** aplicado a indicadores **ESG (Ambiental, Social e Governança)** e **ODS (Objetivos de Desenvolvimento Sustentável)**.
 
-Funções e boas práticas de codificação.
+**Funcionalidades:**
+- Extração de dados CSV brutos  
+- Limpeza, normalização e enriquecimento das informações  
+- Geração de dataset processado para análise  
+- Visualização e interpretação de indicadores no notebook interativo  
 
-Cada script representa um desafio individual proposto no bootcamp.
+📂 *Principais arquivos:*  
+- `main.py` → Script principal de ETL  
+- `indicadores.csv` → Dados brutos  
+- `indicadores_esg.csv` → Dados tratados  
+- `SantanderDevWeek2023.ipynb` → Notebook de análise  
 
-2. ETL Sustentável – ESG & ODS 🌱
+---
 
-Projeto de ETL (Extract, Transform, Load) com foco em Indicadores ESG (Ambiental, Social e Governança) e Objetivos de Desenvolvimento Sustentável (ODS).
-O projeto demonstra como:
+### 📘 3. **Power - BI**
+um **relatório interativo no Power BI** utilizando o conjunto de dados **Sample Financials**. O relatório permite visualizar métricas financeiras, como **lucro, receita e custos**, com filtros e botões interativos que garantem uma experiência dinâmica de análise.
 
-Extrair dados de fontes externas (arquivos CSV ou APIs);
+📈 *Indicadores e Visuais Criados*
+**Página 1 – Visão Geral**
+- Cartões com:
+  - Receita Total  
+  - Lucro Total  
+  - Margem de Lucro (%)  
+- Gráficos:
+  - Receita por Região  
+  - Lucro por Categoria de Produto  
+  - Evolução da Receita ao longo do tempo  
+- Segmentadores:
+  - Ano  
+  - País / Região  
+  - Categoria  
 
-Limpar e transformar os dados com Python (Pandas e NumPy);
-
-Gerar visualizações e relatórios de sustentabilidade;
-
-Produzir uma base consolidada para análise de desempenho ESG.
-
-📘 Arquivos principais:
-
-main.py – pipeline ETL completo;
-
-SantanderDevWeek2023.ipynb – notebook explicativo com análises;
-
-Read.ME – documentação interna do projeto.
-
-3. Santander Dev Week 2023 💻
-
-Projeto final integrador do bootcamp, com código e documentação desenvolvidos durante o evento Santander Dev Week 2023.
-Apresenta aplicação prática dos conhecimentos adquiridos em:
-
-Versionamento com Git/GitHub;
-
-Desenvolvimento colaborativo;
-
-Integração de dados e automação com Python.
-
-🧠 Tecnologias Utilizadas
-
-Python 3.x
-
-Pandas / NumPy
-
-Jupyter Notebook
-
-Git e GitHub
-
-VS Code
-
-🚀 Como Executar
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/Santander2023.git
+**Página 2 – Análise Detalhada** 
+- Gráfico de dispersão: **Lucro x Receita por Produto**
+- Tabela detalhada com métricas financeiras  
+- Indicadores de crescimento em relação ao período anterior  
+- Botão de **voltar para a página principal**
 
 
-Acesse a pasta do projeto:
+---
 
-cd Santander2023
+## 🛠️ Tecnologias Utilizadas
 
+| Categoria | Ferramenta |
+|------------|-------------|
+| Base de Dados | **Excel** |
+| Linguagem | **Python 3.13+** |
+| Versionamento | **Git / GitHub** |
+| Análise de Dados | **Pandas**, **NumPy** |
+| Ambiente | **Jupyter Notebook**, **venv** |
+| Visualização | **Matplotlib**, **Seaborn** |
+| Visualização de dados | **Power BI Desktop** / **Power BI Service** |
+ 
+---
 
-Instale as dependências (se aplicável):
+## 🎯 Objetivos do Bootcamp
 
-pip install -r requirements.txt
+- Dominar os fundamentos de **Python**
+- Praticar **ETL e Análise de Dados**
+- Aplicar conceitos de **ESG e ODS** em projetos de tecnologia
+- Desenvolver e publicar um relatório de Business Intelligence responsivo e limpo
+- Criar um **portfólio prático e aplicável ao mercado**
 
+---
 
-Execute os scripts Python ou abra os notebooks no Jupyter Lab.
+## 💡 Principais Aprendizados
+
+Durante o programa, foram desenvolvidas habilidades em:
+- Programação estruturada e modular  
+- Manipulação e limpeza de dados em larga escala  
+- Automação de fluxos ETL  
+- Visualização e interpretação de indicadores ESG  
+- Boas práticas de versionamento e documentação de código  
+
+---
+
+> “Transformar dados em conhecimento é o primeiro passo para transformar o mundo.”
+
+---
+
+## 📝 Licença
+
+Este repositório está sob a licença **MIT**.  
+Sinta-se à vontade para usar, estudar e adaptar o conteúdo para seus próprios projetos.
+
+---
+
+⭐ **Dica:** Se este repositório te inspirou, deixe uma ⭐ no GitHub!
