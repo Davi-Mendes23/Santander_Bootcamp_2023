@@ -66,7 +66,7 @@ um **relatório interativo no Power BI** utilizando o conjunto de dados **Sample
 | Versionamento | **Git / GitHub** |
 | Análise de Dados | **Pandas**, **NumPy** |
 | Ambiente | **Jupyter Notebook**, **venv** |
-| Visualização | **Matplotlib**, **Seaborn** |
+| Visualização Matemática | **Matplotlib**, **Seaborn** |
 | Visualização de dados | **Power BI Desktop** / **Power BI Service** |
  
 ---
@@ -104,3 +104,4 @@ Sinta-se à vontade para usar, estudar e adaptar o conteúdo para seus próprios
 ---
 
 ⭐ **Dica:** Se este repositório te inspirou, deixe uma ⭐ no GitHub!
+
