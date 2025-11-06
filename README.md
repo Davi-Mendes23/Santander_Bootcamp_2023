@@ -1,4 +1,4 @@
-# Santander Bootcamp 2023 – Projetos
+# Santander Bootcamp – Projetos
 
 ## 🧩 Projetos Desenvolvidos
 
@@ -104,4 +104,5 @@ Sinta-se à vontade para usar, estudar e adaptar o conteúdo para seus próprios
 ---
 
 ⭐ **Dica:** Se este repositório te inspirou, deixe uma ⭐ no GitHub!
+
 
